@@ -8,8 +8,8 @@ import MemoList from '../components/MemoList';
 export default function MemoListScreen() {
     return (
         <View style={styles.container}>
-        <AppBar />
-        <MemoList />
+            <AppBar />
+            <MemoList />
         <CircleButton name="plus"/>
         </View>
     );
